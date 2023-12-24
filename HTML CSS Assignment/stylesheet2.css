@@ -1,0 +1,60 @@
+body {
+    background : linear-gradient(to right, #ffffcc, #f6a9e7);
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.left-section .first-image{
+    display: block;
+    margin-top: auto;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    height: 280px;
+    width: 300px;
+}
+
+.left-section .second-image{
+    display: block;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: auto;
+    height: 280px;
+    width: 300px;
+}
+
+.left-section .third-image {
+    flex: 1;
+}
+
+.third-image {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 300px;
+    height: 584px;
+    width: 300px;
+}
+
+.right-section {
+    flex: 1;
+}
+
+.right-section .message{
+    display: block;
+    background-color: #f86969;
+    padding: 2px 10px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    margin-right: 200px;
+}
